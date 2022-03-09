@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  min-width: 100vh;
+  position: relative;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+#fondo {
+  background: url(../Imagenes/ballena1.jpg);
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.contenedorTitu {
+  color: #fff;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 40px;
+  position: relative;
+  top: 50px;
+  width: 100%;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.title {
+  color: white;
+}
+#titulo {
+  color: white;
+  display: flex;
+  width: 100%;
+}
+
+#titulo h1 {
+  float: left;
+}
+
+.menu2 {
+  float: right;
+  margin-top: 10px;
+}
+
+.menu2 a {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  right: 10px;
+}
+
+.menu2 a:hover {
+  background: rgb(14, 202, 213, 0.5);
+}
+
+.ContenedorNav {
+  width: 100%;
+  margin: auto;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 5px;
+  height: 50px;
+  background-color: black;
+  opacity: 70%;
+}
+
+#Cabeza {
+  color: white;
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  font-size: large;
+}
+
+#Cabeza h1 {
+  float: left;
+}
+
+.menu {
+  float: right;
+  margin-top: 10px;
+  display: block;
+  color: white;
+}
+
+.menu li {
+  list-style: none;
+  float: left;
+  margin: 5px;
+}
+
+.menu li ul {
+  display: none;
+  position: absolute;
+  background-color: black;
+  opacity: 70%;
+  font-size: 14pt;
+}
+
+.menu li:hover ul {
+  display: block;
+}
+
+.menu li ul li {
+  position: relative;
+}
+
+.menu li ul li ul {
+  height: -145;
+  top: 0px;
+  padding: 10px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+}
+
+.menu a:hover {
+  background: red;
+  color: white;
+}
+
+#Principal {
+  color: #fff;
+  position: relative;
+  top: 55%;
+  padding: 10px;
+  background: black;
+  opacity: 80%;
+}
+
+.ContenedorPrin {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.ContenedorPrin a {
+  color: #fff;
+  text-decoration: none;
+  width: 10%;
+  padding: 5px 10px;
+}
+.caracteristicas {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+.caracteristicas p {
+  padding-top: 30px;
+  font-size: x-large;
+  text-align: justify;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 700px;
+  margin: 0 auto;
+}
+.caracteristicas img {
+  width: 700px;
+  margin: 0 auto;
+}
+.title-caracteristicas {
+  font-size: 20pt;
+  text-align: center;
+  margin-block: 20px;
+}
+
+.Alim img,
+.Comp img,
+.Repro img {
+  width: 700px;
+  margin: 0 auto;
+}
+.Comp,
+.Alim,
+.Repro {
+  padding-top: 15px;
+  font-size: x-large;
+  text-align: justify;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 700px;
+  margin: 0 auto;
+}
+.actividades {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.aves img,
+.manglar img,
+.turismo img {
+  width: 300px;
+  height: 300px;
+  margin: 15px;
+  border-radius: 50px;
+}
+.aves h4,
+.manglar h4,
+.turismo h4 {
+  text-align: center;
+}
+.contenedor {
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.contenedor p {
+  padding: 15px;
+}
+footer {
+  margin-top: 15px;
+  height: 50px;
+}
